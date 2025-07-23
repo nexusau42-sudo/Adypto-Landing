@@ -3,76 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Adypto — AI Ad Automation SaaS</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Adypto – AI Ad Automation</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
-    header {
-      background-color: #111827;
-      color: white;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
       text-align: center;
+      padding: 50px;
+      background: #f7f7f7;
     }
     h1 {
-      margin: 0;
       font-size: 2.5rem;
     }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .cta {
-      background-color: #3b82f6;
-      color: white;
-      padding: 1rem 2rem;
+    p {
       font-size: 1.2rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 1.5rem;
+      margin-bottom: 30px;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #6b7280;
-      margin-top: 4rem;
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    input[type="email"] {
+      padding: 10px;
+      font-size: 1rem;
+      width: 250px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #0070f3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005ccc;
     }
   </style>
 </head>
 <body>
+  <h1>Join the Adypto Waitlist</h1>
+  <p>Be the first to automate your ad campaigns with AI.</p>
 
-  <header>
-    <h1>Adypto</h1>
-    <p>AI-powered Facebook ad creation and automation</p>
-  </header>
-
-  <section>
-    <h2>Automate Your Ads in Minutes</h2>
-    <p>Adypto helps businesses and marketers generate high-converting Facebook ads using AI. Just enter your product info, and Adypto creates scroll-stopping ad copy — ready to publish or test.</p>
-
-    <h2>Key Features</h2>
-    <ul>
-      <li>AI-generated Facebook ads in seconds</li>
-      <li>Recurring billing with Stripe</li>
-      <li>Email automation via Gmail</li>
-      <li>n8n-based backend workflows</li>
-    </ul>
-
-    <a href="#" class="cta">Join the Waitlist</a>
-  </section>
-
-  <footer>
-    &copy; 2025 Adypto. All rights reserved.
-  </footer>
-
+  <form action="https://YOUR_N8N_WEBHOOK_URL_HERE" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <br />
+    <button type="submit">Join Waitlist</button>
+  </form>
 </body>
 </html>
+
