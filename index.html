@@ -5,22 +5,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center p-6">
-      <div className="max-w-5xl w-full text-center space-y-10">
-        <h1 className="text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent animate-fade-in">
+    <main className="min-h-screen bg-gradient-to-br from-gray-950 to-gray-800 text-white flex flex-col items-center justify-center p-6">
+      <div className="max-w-6xl w-full text-center space-y-12 animate-fade-in">
+        <h1 className="text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
           ADYPTO
         </h1>
-        <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          Discover a brand-new way to run ads without relying on overpriced SMMA agencies.
-          For just <span className="text-white font-bold">$20/month</span>, Adypto gives you full control—generate stunning, platform-ready content in seconds with just a prompt and your media.
+        <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          A revolutionary ad generator for small businesses. Just $20/month to access smart, AI-driven ad creation—no agencies, no stress. Own your campaigns across Instagram, Facebook, TikTok, and more.
         </p>
 
-        <Card className="bg-gray-800 border border-gray-700 rounded-2xl shadow-2xl">
-          <CardContent className="p-8">
-            <h2 className="text-3xl font-semibold mb-4">Take Back Control of Your Ads</h2>
-            <p className="text-gray-300 mb-6">
-              Why pay thousands for a few posts? Adypto helps small businesses build, customize, and launch professional-quality ads—without needing a full marketing team.
-              Perfect for Facebook, Instagram, TikTok, and more.
+        <Card className="bg-gradient-to-br from-gray-800 to-gray-700 border border-gray-600 rounded-3xl shadow-2xl">
+          <CardContent className="p-10">
+            <h2 className="text-3xl font-semibold mb-4 text-white">Take Back Control of Your Ads</h2>
+            <p className="text-gray-300 mb-6 text-lg">
+              Skip the overpriced SMMA agencies. With Adypto, generate pro-level ads that reflect your brand and speak directly to your audience—in just a few clicks.
             </p>
             <Button className="bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white px-8 py-4 rounded-xl text-lg transition-all duration-300">
               Join Waitlist
@@ -34,47 +32,47 @@ export default function Home() {
             alt="Example Ad 1"
             width={400}
             height={400}
-            className="rounded-xl shadow-lg object-cover"
+            className="rounded-2xl shadow-xl object-cover border border-gray-600"
           />
           <Image
             src="/examples/ad2.jpg"
             alt="Example Ad 2"
             width={400}
             height={400}
-            className="rounded-xl shadow-lg object-cover"
+            className="rounded-2xl shadow-xl object-cover border border-gray-600"
           />
           <Image
             src="/examples/ad3.jpg"
             alt="Example Ad 3"
             width={400}
             height={400}
-            className="rounded-xl shadow-lg object-cover"
+            className="rounded-2xl shadow-xl object-cover border border-gray-600"
           />
         </div>
 
         <section className="mt-20 grid gap-12 md:grid-cols-2 text-left">
-          <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
+          <div className="bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform hover:scale-[1.02]">
             <h3 className="text-2xl font-bold mb-3">🧠 AI-Powered Prompts</h3>
             <p className="text-gray-400">
-              Just describe your product or service. Adypto instantly writes scroll-stopping ad copy tailored to your audience.
+              Describe your product, and Adypto instantly crafts ad copy designed to grab attention and convert.
             </p>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-2xl font-bold mb-3">🎞️ Visuals Without the Hassle</h3>
+          <div className="bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform hover:scale-[1.02]">
+            <h3 className="text-2xl font-bold mb-3">🎞️ Hassle-Free Visuals</h3>
             <p className="text-gray-400">
-              Upload your own photos or let our AI generate custom visuals. No design skills needed.
+              Upload your media—or let AI generate stunning visuals for you. Zero design experience needed.
             </p>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-2xl font-bold mb-3">📤 Fast, Flexible Delivery</h3>
+          <div className="bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform hover:scale-[1.02]">
+            <h3 className="text-2xl font-bold mb-3">🚀 Instant Delivery</h3>
             <p className="text-gray-400">
-              Instantly download your ad assets or receive them via email. Ready to post right away.
+              Get your finished ad package within seconds. Download or receive it directly by email.
             </p>
           </div>
-          <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
+          <div className="bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform hover:scale-[1.02]">
             <h3 className="text-2xl font-bold mb-3">📲 Full Ad Page Control</h3>
             <p className="text-gray-400">
-              Manage your ad presence across Instagram, Facebook, TikTok, and more. Stop depending on someone else to run your campaigns—own your success.
+              Manage, modify, and schedule ads across your platforms. Keep your brand in your hands—always.
             </p>
           </div>
         </section>
