@@ -3,149 +3,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Adypto – Automated Ads for Small Business</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <title>Adypto – Affordable AI Ads for Small Business</title>
   <style>
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0e0e0e;
+      color: #eaeaea;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f9fafb;
-      color: #111827;
+      padding: 0;
     }
-    header, footer {
-      background-color: #111827;
-      color: white;
+
+    header {
+      background: #1a1a1a;
+      padding: 2.5em 1em;
       text-align: center;
-      padding: 1.5rem;
     }
-    .hero {
-      padding: 5rem 2rem;
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #20c997;
+    }
+
+    p.subtitle {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 2em;
       text-align: center;
-      background: linear-gradient(135deg, #3b82f6, #9333ea);
-      color: white;
     }
-    .hero h1 {
-      font-size: 2.75rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-    }
-    .form input[type="text"], .form input[type="email"] {
-      padding: 0.75rem;
-      font-size: 1rem;
-      width: 100%;
-      max-width: 300px;
-      margin: 0.5rem auto;
-      display: block;
+
+    .button {
+      background-color: #20c997;
+      color: #fff;
       border: none;
-      border-radius: 6px;
-    }
-    .form button {
-      padding: 0.75rem 1.5rem;
+      padding: 1em 2em;
       font-size: 1rem;
-      background-color: #111827;
-      color: white;
-      border: none;
-      border-radius: 6px;
+      margin: 1em;
       cursor: pointer;
-    }
-    .features {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      padding: 4rem 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .feature {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    }
-    .feature h3 {
-      margin-top: 0;
-    }
-    .cta {
-      background-color: #f3f4f6;
-      text-align: center;
-      padding: 3rem 2rem;
-    }
-    .cta h2 {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
-    }
-    .footer-links {
-      margin-top: 1rem;
-      font-size: 0.9rem;
-    }
-    .footer-links a {
-      color: #9ca3af;
-      margin: 0 0.75rem;
+      border-radius: 5px;
       text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #1aa782;
+    }
+
+    .button.disabled {
+      background-color: #555;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .section {
+      text-align: left;
+      margin-top: 2em;
+    }
+
+    .section h2 {
+      color: #20c997;
+    }
+
+    .section ul {
+      padding-left: 1.5em;
+      line-height: 1.8;
+    }
+
+    footer {
+      background: #1a1a1a;
+      padding: 1em;
+      text-align: center;
+      color: #666;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Adypto</h1>
-  <p>AI-Powered Ad Automation for Small Businesses</p>
-</header>
+  <header>
+    <h1>Adypto</h1>
+    <p class="subtitle">Your AI-powered ad assistant – skip the agency fees and take control.</p>
+  </header>
 
-<section class="hero">
-  <h1>Stop Paying $1,500/Month to Agencies</h1>
-  <p>With Adypto, you can run pro-level Facebook & Instagram ads with just one click—for only $20/month.</p>
-  <form class="form" action="https://taza43212.app.n8n.cloud/webhook/YOUR_ENDPOINT_ID" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <button type="submit">Subscribe Now</button>
-  </form>
-</section>
+  <div class="container">
+    <a href="https://buy.stripe.com/test_28E00jg6N9vvdvJ8Y518c00" class="button">Subscribe for $20/month</a>
+    <a href="dashboard.html" id="dashboardButton" class="button disabled">Go to Dashboard</a>
 
-<section class="features">
-  <div class="feature">
-    <h3>🚫 Traditional SMMA Agencies</h3>
-    <p>Charge thousands for setup, monthly retainers, and vague reports. Adypto replaces all of that with one affordable subscription.</p>
-  </div>
-  <div class="feature">
-    <h3>✅ AI Ad Generation</h3>
-    <p>Our AI builds, launches, and manages your Meta ads for you. You focus on your business—we handle the marketing.</p>
-  </div>
-  <div class="feature">
-    <h3>🛠️ No Expertise Needed</h3>
-    <p>Don’t know how to advertise? No problem. Adypto makes it simple enough for anyone to use.</p>
-  </div>
-  <div class="feature">
-    <h3>💸 Flat $20/month</h3>
-    <p>One-click ad automation for a flat $20/month. No contracts. Cancel anytime.</p>
-  </div>
-</section>
+    <div class="section">
+      <h2>Why pay $2000/month to a marketing agency...</h2>
+      <p>
+        When you can automate the same results for just <strong>$20/month</strong>?
+        SMMA agencies often charge thousands just to deliver a handful of ads. With Adypto, you get a fully automated system:
+      </p>
+      <ul>
+        <li>✅ AI-written Facebook and Instagram ads tailored to your business</li>
+        <li>✅ Professional ad copy, matching visuals, and even video formats</li>
+        <li>✅ Delivered straight to your email and available in your dashboard</li>
+        <li>✅ No meetings, no overcharging, no contracts</li>
+      </ul>
+    </div>
 
-<section class="cta">
-  <h2>Take Control of Your Marketing</h2>
-  <p>Get agency-grade advertising without the agency price tag. Join the waitlist today and unlock Adypto for $20/month.</p>
-  <form class="form" action="https://taza43212.app.n8n.cloud/webhook/YOUR_ENDPOINT_ID" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <button type="submit">Subscribe Now</button>
-  </form>
-</section>
+    <div class="section">
+      <h2>Who is this for?</h2>
+      <ul>
+        <li>🛠 Local service providers (plumbers, cleaners, tradies, barbers)</li>
+        <li>🛍 Small business owners needing regular ads</li>
+        <li>🎯 Solo entrepreneurs and freelancers looking to grow online</li>
+        <li>📉 Anyone tired of wasting cash on overhyped agencies</li>
+      </ul>
+    </div>
 
-<footer>
-  <p>&copy; 2025 Adypto. All rights reserved.</p>
-  <div class="footer-links">
-    <a href="#">Privacy Policy</a> |
-    <a href="#">Terms of Service</a> |
-    <a href="mailto:support@adypto.ai">Contact</a>
+    <div class="section">
+      <h2>What do I get?</h2>
+      <ul>
+        <li>🧠 AI-generated text ads (ready to post)</li>
+        <li>🖼 Matching visuals that grab attention</li>
+        <li>🎞 Option for short video creatives</li>
+        <li>📥 Instant access and downloads</li>
+        <li>📬 Email delivery + dashboard access</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>All for just $20/month.</h2>
+      <p>No hidden fees. Cancel anytime. Your ads, your control, your growth.</p>
+      <a href="https://buy.stripe.com/test_28E00jg6N9vvdvJ8Y518c00" class="button">Subscribe Now</a>
+    </div>
   </div>
-</footer>
+
+  <footer>
+    &copy; 2025 Adypto. Built for business owners, not big budgets.
+  </footer>
+
+  <script>
+    // Placeholder: Unlock button if user is authenticated/subscribed
+    const isSubscribed = false; // Change this later dynamically
+    if (isSubscribed) {
+      document.getElementById("dashboardButton").classList.remove("disabled");
+    }
+  </script>
 
 </body>
 </html>
-
 
 
 
